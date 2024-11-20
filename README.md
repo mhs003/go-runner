@@ -1,7 +1,7 @@
 
 # go-runner
 
-This script allows you to manage and execute commands specified in a `.runner` file within the current directory. This is the re-implementation of my previous [runner](https://github.com/mhs003/runner/) command.
+This script allows you to manage and execute commands specified in a `.runner` file within the current directory. This is a re-implementation of my previous [runner](https://github.com/mhs003/runner/) script which I wrote in python.
 
 ## features
 - **Run predefined commands** from a `.runner` file.
@@ -9,7 +9,7 @@ This script allows you to manage and execute commands specified in a `.runner` f
 - **Verbose mode** for detailed output.
 
 ## requirements
-- Go version 1.17 or later.
+- [Go-lang](https://go.dev/) `(latest)`
 
 ## installation
 
