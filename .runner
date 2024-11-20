@@ -1,1 +1,2 @@
 build: go build -o run 
+install: cp run /usr/local/bin
