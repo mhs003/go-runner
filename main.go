@@ -145,7 +145,7 @@ func displayCommands(lines []string) {
 	for _, line := range lines {
 		if idx := strings.Index(line, ":"); idx != -1 {
 			command := strings.TrimSpace(line[:idx])
-			if containsArg(command, printed) {
+			if containsArg(command, printed) || strings.HasPrefix(command, "#") {
 				continue
 			}
 			printed = append(printed, command)
