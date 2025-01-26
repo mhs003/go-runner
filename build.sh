@@ -6,8 +6,8 @@ PLATFORMS=(
     "linux/amd64"
     "linux/arm64"
     "linux/386"
-    "windows/amd64"
-    "windows/386"
+    # "windows/amd64"
+    # "windows/386"
     "darwin/amd64"
     "darwin/arm64"
 )
@@ -19,9 +19,9 @@ for platform in "${PLATFORMS[@]}"; do
     GOARCH=${platform#*/}
     output="bin/${GOOS}-${GOARCH}/${APP}"
     
-    if [ "$GOOS" = "windows" ]; then
-        output+=".exe"
-    fi
+    # if [ "$GOOS" = "windows" ]; then
+    #     output+=".exe"
+    # fi
 
     chmod +x "$output"
 
