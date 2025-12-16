@@ -3,7 +3,7 @@
 
 # go-runner
 
-This script allows you to manage and execute commands specified in a `.runner` file within the current directory. This is a **go-lang** implementation of my previous [runner](https://github.com/mhs003/runner/) script which I wrote in python.
+This script allows you to manage and execute commands specified in a `.runner` file within the current directory. This is a **go-lang** implementation of my previous [runner-py](https://github.com/mhs003/runner-py/) script which I wrote in python.
 
 ## features
 - **Run predefined commands** from a `.runner` file.
