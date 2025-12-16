@@ -1,3 +1,5 @@
+## This project is abandoned. I'm reimplementing it here [https://github.com/mhs003/runner](https://github.com/mhs003/runner)
+
 
 # go-runner
 
